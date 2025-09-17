@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  margin: 0;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+.hero {
+  background: url("https://picsum.photos/1200/400") no-repeat center/cover;
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero button {
+  background: #4CAF50;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.hero button:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background: #eee;
+  padding: 15px;
+  text-align: center;
+}
