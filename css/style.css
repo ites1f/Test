@@ -12,11 +12,16 @@ header {
 }
 
 .hero {
-  background: path(images/wallpaper.png) no-repeat center/cover;
-  padding: 60px 20px;
-  text-align: center;
+  background: url("../images/bg.png") no-repeat center/cover;
+  height: 100vh; /* full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
+  text-align: center;
 }
+
 
 .hero button {
   background: #4CAF50;
