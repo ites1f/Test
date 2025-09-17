@@ -12,7 +12,7 @@ header {
 }
 
 .hero {
-  background: url('../images/banner.jpg') no-repeat center/cover;
+  background: path(images/wallpaper.png) no-repeat center/cover;
   padding: 60px 20px;
   text-align: center;
   color: white;
